@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="madscientist.labs.rocktheuniverse.MainActivity"
+    android:orientation="vertical"
+    android:paddingTop="?attr/actionBarSize"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fan Zone"
+                android:textColor="@color/colorAccent"
+                android:paddingTop="40px"
+                android:layout_gravity="center"
+                android:fontFamily="Roboto-Medium"
+                android:textSize="20pt"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Friday"
+                android:textColor="#000"
+                android:textSize="12pt"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:text="Royce Lovett 6:15"
+                android:tag="royce"
+                android:padding="10px"
+                android:layout_marginBottom="30px"
+                android:onClick="bandPage"
+                android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
+                android:background="@color/colorAccent"
+                android:textSize="9pt"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:text="Jillian Edwards 7:00"
+                android:tag="jillian"
+                android:padding="10px"
+                android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
+                android:layout_marginBottom="30px"
+                android:onClick="bandPage"
+                android:background="@color/colorAccent"
+                android:textSize="9pt"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
+                android:tag="seventh"
+                android:text="7th Time Down 8:00"
+                android:layout_marginBottom="30px"
+                android:padding="10px"
+                android:onClick="bandPage"
+                android:background="@color/colorAccent"
+                android:textSize="9pt"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
+                android:tag="promote1"
+                android:text="DJ Promote 9:30"
+                android:layout_marginBottom="30px"
+                android:onClick="bandPage"
+                android:padding="10px"
+                android:background="@color/colorAccent"
+                android:textSize="9pt"/>
+
+
+           
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saturday"
+                android:textColor="#000"
+                android:textSize="12pt"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:tag="ryan"
+                android:text="Ryan Stevenson 6:15"
+                android:layout_marginBottom="30px"
+                android:onClick="bandPage"
+                android:padding="10px"
+                android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
+                android:background="@color/colorAccent"
+                android:textSize="9pt"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:text="About The Author 7:00"
+                android:tag="about"
+                android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
+                android:onClick="bandPage"
+                android:padding="10px"
+                android:layout_marginBottom="30px"
+                android:background="@color/colorAccent"
+                android:textSize="9pt"/>
+            
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:text="The New Respects 8:00"
+                android:tag="respects"
+                android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
+                android:onClick="bandPage"
+                android:layout_marginBottom="30px"
+                android:padding="10px"
+                android:background="@color/colorAccent"
+                android:textSize="9pt"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
+                android:tag="promote2"
+                android:text="DJ Promote 9:15"
+                android:onClick="bandPage"
+                android:layout_marginBottom="30px"
+                android:padding="10px"
+                android:background="@color/colorAccent"
+                android:textSize="9pt"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

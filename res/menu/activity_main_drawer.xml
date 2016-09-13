@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@mipmap/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/friday"
+            android:icon="@mipmap/ic_label_black_24dp"
+            android:title="Friday" />
+        <item
+            android:id="@+id/saturday"
+            android:icon="@mipmap/ic_label_black_24dp"
+            android:title="Saturday" />
+        <item
+            android:id="@+id/fanZone"
+            android:icon="@mipmap/ic_label_black_24dp"
+            android:title="Fan Zone" />
+        <item
+            android:id="@+id/fav"
+            android:icon="@mipmap/ic_favorite_black_24dp"
+            android:title="Favorites" />
+    </group>
+
+    <item android:title="Extras">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/connect"
+                    android:icon="@mipmap/ic_people_black_24dp"
+                    android:title="Connect" />
+
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

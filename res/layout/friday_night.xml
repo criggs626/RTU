@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="madscientist.labs.rocktheuniverse.MainActivity"
+    android:orientation="vertical"
+    android:paddingTop="?attr/actionBarSize"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Friday Night"
+        android:textColor="@color/colorAccent"
+        android:paddingTop="40px"
+        android:layout_gravity="center"
+        android:fontFamily="Roboto-Medium"
+        android:textSize="20pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fTBlock1"
+        android:textColor="#000"
+        android:textSize="12pt"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:onClick="bandPage"
+                android:tag="kb"
+                android:text="KB 6:15 @ Music Plaza"
+                android:padding="10px"
+                android:layout_marginBottom="30px"
+                android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
+                android:background="@color/colorAccent"
+                android:textSize="9pt"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:onClick="bandPage"
+                android:tag="finding"
+                android:text="Finding Favour 6:45 @ Hollywood"
+                android:padding="10px"
+                android:layout_marginBottom="30px"
+                android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
+                android:background="@color/colorAccent"
+                android:textSize="9pt"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fTBlock2"
+        android:textColor="#000"
+        android:textSize="12pt"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:text="Rend Collective 7:45 @ Music Plaza"
+                android:onClick="bandPage"
+                android:tag="rend"
+                android:layout_marginBottom="30px"
+                android:padding="10px"
+                android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
+                android:background="@color/colorAccent"
+                android:textSize="9pt"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:text="Lauren Daigle 8:15 @ Hollywood"
+                android:onClick="bandPage"
+                android:tag="lauren"
+                android:layout_marginBottom="30px"
+                android:padding="10px"
+                android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
+                android:background="@color/colorAccent"
+                android:textSize="9pt"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fTBlock3"
+        android:textColor="#000"
+        android:textSize="12pt"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:text="Jeremy Camp 9:15 @ Music Plaza"
+                android:onClick="bandPage"
+                android:tag="jeremy"
+                android:layout_marginBottom="30px"
+                android:padding="10px"
+                android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
+                android:background="@color/colorAccent"
+                android:textSize="9pt"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:text="Mat Maher 10:00 @ Hollywood"
+                android:onClick="bandPage"
+                android:tag="mat"
+                android:padding="10px"
+                android:layout_marginBottom="30px"
+                android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
+                android:background="@color/colorAccent"
+                android:textSize="9pt"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fTBlock4"
+        android:textColor="#000"
+        android:textSize="12pt"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:text="Skillet 11:00 @ Music Plaza"
+                android:onClick="bandPage"
+                android:tag="skillet"
+                android:layout_marginBottom="30px"
+                android:padding="10px"
+                android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
+                android:background="@color/colorAccent"
+                android:textSize="9pt"/>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

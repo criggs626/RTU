@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Rock The Universe</string>
+    <string name="home_content">This is the Rock The Universe 2016 app. You can use this app to view the what bands are playing, at what time, and where. This app is not supported by Universal. </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash_screen">splashScreen</string>
+    <string name="title_activity_friday_night">FridayNight</string>
+
+    <string name="fTBlock1">•6:00-7:30</string>
+    <string name="fTBlock2">•7:30-9:00</string>
+    <string name="fTBlock3">•9:00-10:00</string>
+    <string name="fTBlock4">•10:00-11:00</string>
+    <string name="title_activity_band_page">BandPage</string>
+
+    <string name="skillet_description">Skillet made headlines a few years ago when their album, Awake, became one of just three rock albums to be certified platinum in 2012. Skillet’s success has only grown since then. They were recognized in early 2016 for recording the biggest digital single in Christian music history, “Monster,” with over 2.6 million sales. The hit was certified 2x Platinum by the RIAA, was the #1 streaming Christian song of 2015 and was the #8 streaming rock song of 2015. </string>
+    <string name="jeremy_description">During his dozen years in the music business, songwriter and recording artist Jeremy Camp has sold more than 4 million albums, come out with four RIAA Gold albums and a multi-platinum DVD, and has scored three American Music Award nominations and a Grammy nomination. He’s headlined more the 18 tours in the U.S. and has performed in more than 32 countries. He released his eighth studio album, I Will Follow, in early 2015. </string>
+    <string name="mat_description">Since his 2008 major label debut, Matt Maher has become a staple in the songwriting community. A five-time Grammy nominee, he has recorded popular songs like “Lord, I Need You,” “Hold Us Together” and “Christ Is Risen.” In 2013, Maher performed on stage with Pope Francis in front of more than 3 million people at World Youth Day in Rio de Janeiro. </string>
+    <string name="rend_description">Northern Irish Christian band Rend Collective debuted with the critically acclaimed album, Organic Family Hymnal. Since then, they’ve had two chart-topping albums, 2014’s The Art of Celebration and 2015’s As Family We Go, along with hit singles like “Second Chance” and “Build Your Kingdom Here.” </string>
+    <string name="kb_description">Rapper Kevin Burgess, now better known by his stage name KB, dove into Christian hip hop starting in 2012, releasing a mixtape, a widely successful debut album and a Dove award-winning EP. His second hip hop studio album, Tomorrow We Live, started on the Billboard charts at #1 on Top Christian Albums, # 4 on Top Rap Albums, and in the Top 20 of the iconic Billboard 200. </string>
+    <string name="lauren_description">In a short time, Lauren Daigle has made an impressive mark on the Christian music scene. She won New Artist of the Year and her single “How Can It Be” won song of the year at the 2015 Dove Awards. Plus, her first-ever album, How Can It Be, was nominated for a 2016 Grammy Award for Best Contemporary Christian Music Album. </string>
+    <string name="finding_description">Hailing from Vidalia, Georgia, Finding Favour released their debut self-titled album in 2013 to wide critical acclaim. Their latest album Reborn was released in July 2015 and was #2 on the Billboard Top Christian Albums. Their hit singles include “Cast My Cares” and “Slip On By.”</string>
+    <string name="lecrae_description">Lecrae has nearly reached the pinnacle of success with six bestselling Christian hip hop albums, two mixtapes, and a Grammy award. In 2010, he released the critically-acclaimed album, Rehab, which debuted in the Top 20 on the Billboard Top 200. His follow-up album, Gravity, scored #1 position on the Rap Album and Independent Album charts and debuted at #3 on the Billboard Top 200. His seventh studio album, Anomaly, was released in 2014.</string>
+    <string name="tobymac_description">With over 11 million in career sales and six Grammy awards, Christian hip hop artist TobyMac shows no signs of slowing down. He recently released his seventh career album, This Is Not A Test, which won the 2016 Grammy for Best Contemporary Christian Album. Some of his many hit songs include “Made to Love,” City on Our Knees,” “Speak Life” and “Feel It.” </string>
+    <string name="colton_description">Colton Dixon’s 2013 debut, A Messenger, set the record for biggest first-week sales by a new solo Christian act, becoming the #1 selling album of 2013 by a new Christian artist and the # 9 best selling album of 2013 in the Christian genre overall. He received three Dove Award nominations, winning for Best Contemporary/Rock Album, and he was nominated for Male Artist of the Year at the 2014 KLOVE Fan Awards. </string>
+    <string name="family_description">The Atlanta-based Family Force 5 debuted in 2006 with Business Up Front/Party In The Back, which was teeming with guitar-driven crunk-metal and rapping. Their follow-up album, 2008’s Dance Or Die, incorporated everything from radio-friendly pop to soundtracks for electro-driven dance floors. Since then, 2011’s III and 2014’s Time Stands Still have continued their eclectic mix of genres. </string>
+    <string name="andy_description">Andy Mineo’s critically acclaimed debut Christian hip hop album, 2013’s Heroes For Sale, reached #11 on the Billboard Top 200, #4 on the Top Rap Albums chart and #2 on the Billboard Independent Albums chart. The Syracuse native’s success continued with his second album, Never Land, which was #1 on iTunes and his most recent album, Uncomfortable, which debuted at #10 on the Billboard 200. </string>
+    <string name="nf_description">Nate Feuerstein, recording as the hip hop/alternative artist NF, released his first studio album, Mansion, in 2015. The album reached #1 on the Billboard Top Christian Albums and #8 on Top Rap Albums chart. His hit self-titled EP charted on the Christian Albums chart at #12, the Top Gospel Albums at # 4, and the Top Rap Albums #15. </string>
+    <string name="they_description">Hailing from Carson City, Nevada, I Am They has roots as a worship team based out of a community of local churches. In 2011, the band won a band competition at Spirit West Coast and attracted attention within the industry, culminating in a major deal with Provident Label Group. Their self-titled debut album was released in early 2015 and reached #8 on the Billboard Top Christian Albums. </string>
+
+    <string name="skillet_name">Skillet</string>
+    <string name="jeremy_name">Jeremy Camp</string>
+    <string name="mat_name">Mat Maher</string>
+    <string name="rend_name">Rend Collective</string>
+    <string name="kb_name">KB</string>
+    <string name="lauren_name">Lauren Daigle</string>
+    <string name="finding_name">Finding Favour</string>
+    <string name="lecrae_name">Lecrae</string>
+    <string name="tobymac_name">TobyMac</string>
+    <string name="colton_name">Colton Dixon</string>
+    <string name="family_name">Family Force 5</string>
+    <string name="andy_name">Andy Mineo</string>
+    <string name="nf_name">NF</string>
+    <string name="they_name">I Am They</string>
+
+    <string name="skillet_info">•11:00\n•Music Plaza</string>
+    <string name="jeremy_info">•9:15\n•Music Plaza</string>
+    <string name="mat_info">•10:00\n•Hollywood</string>
+    <string name="rend_info">•7:45\n•Music Plaza</string>
+    <string name="kb_info">•6:15\n•Music Plaza</string>
+    <string name="lauren_info">•8:15\n•Hollywood</string>
+    <string name="finding_info">•6:45\n•Hollywood</string>
+    <string name="lecrae_info">•10:45\n•Music Plaza</string>
+    <string name="tobymac_info">•9:15\n•Music Plaza</string>
+    <string name="colton_info">•10:15\n•Hollywood</string>
+    <string name="family_info">•7:30\n•Music Plaza</string>
+    <string name="andy_info">•6:00\n•Music Plaza</string>
+    <string name="nf_info">•8:30\n•Hollywood</string>
+    <string name="they_info">•7:00\n•Hollywood</string>
+
+    <string name="royce_info">•6:15\n•Fan Zone</string>
+    <string name="jillian_info">•7:00\n•Fan Zone</string>
+    <string name="seventh_info">•8:00\n•Fan Zone</string>
+    <string name="promote1_info">•9:30\n•Fan Zone</string>
+    <string name="ryan_info">•6:15\n•Fan Zone</string>
+    <string name="about_info">•7:00\n•Fan Zone</string>
+    <string name="respects_info">•8:00\n•Fan Zone</string>
+    <string name="promote2_info">•9:15\n•Fan Zone</string>
+
+    <string name="royce_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
+    <string name="jillian_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
+    <string name="seventh_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
+    <string name="promote1_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
+    <string name="ryan_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
+    <string name="about_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
+    <string name="respects_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
+    <string name="promote2_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
+
+    <string name="royce_name">Royce  Lovett</string>
+    <string name="jillian_name">Jillian Edwards</string>
+    <string name="seventh_name">7eventh Time Down</string>
+    <string name="promote1_name">DJ Promote</string>
+    <string name="ryan_name">Ryan Stevenson</string>
+    <string name="about_name">About The Author</string>
+    <string name="respects_name">The New Respects</string>
+    <string name="promote2_name">DJ Promote</string>
+
+    <string name="title_activity_social_media">SocialMedia</string>
+    <string name="title_activity_timeline">TimelineActivity</string>
+
+</resources>
