@@ -1,7 +1,7 @@
-##Rock The Universe
+## Rock The Universe
 This application is intended for personal use for the concert event Rock The Universe 2016.
 
-###Features
+### Features
 * Band Information
 * Concert Notifications
 * Favorite lists
