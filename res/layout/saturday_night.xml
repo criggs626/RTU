@@ -18,29 +18,29 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Saturday Night"
-                android:textColor="@color/colorAccent"
-                android:paddingTop="40px"
-                android:layout_gravity="center"
-                android:fontFamily="Roboto-Medium"
-                android:textSize="20pt"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="•6:00-7:15"
-                android:textColor="#000"
-                android:textSize="12pt"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saturday Night"
+            android:textColor="@color/colorAccent"
+            android:paddingTop="40px"
+            android:layout_gravity="center"
+            android:fontFamily="Roboto-Medium"
+            android:textSize="20pt"
+            />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/sTBlock1"
+              android:textColor="#000"
+              android:textSize="12pt"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="viewStart"
                 android:onClick="bandPage"
-                android:tag="andy"
-                android:text="Andy Mineo 6:00 @ Music Plaza"
+                android:tag="rs"
+                android:text="Ryan Stevenson X:XX @ Hollywood"
                 android:padding="10px"
                 android:layout_marginBottom="30px"
                 android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
@@ -50,30 +50,30 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="viewStart"
-                android:text="I Am They 7:00 @ Hollywood"
+                android:text="Family Force 5 X:XX @ Music Plaza"
                 android:onClick="bandPage"
-                android:tag="they"
+                android:tag="ff5"
                 android:padding="10px"
                 android:layout_marginBottom="30px"
                 android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
                 android:background="@color/colorAccent"
                 android:textSize="9pt"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="•7:15-8:30"
-                android:textColor="#000"
-                android:textSize="12pt"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/sTBlock2"
+              android:textColor="#000"
+              android:textSize="12pt"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="viewStart"
                 android:onClick="bandPage"
-                android:tag="family"
-                android:text="Family Force 5 7:30 @ Music Plaza"
-                android:layout_marginBottom="30px"
+                android:tag="bh"
+                android:text="Brandon Heath X:XX @ Hollywood"
                 android:padding="10px"
+                android:layout_marginBottom="30px"
                 android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
                 android:background="@color/colorAccent"
                 android:textSize="9pt"/>
@@ -81,28 +81,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="viewStart"
-                android:text="NF 8:30 @ Hollywood"
+                android:text="for King and Country X:XX @ Music Plaza"
                 android:onClick="bandPage"
-                android:tag="nf"
+                android:tag="kc"
                 android:layout_marginBottom="30px"
                 android:padding="10px"
                 android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
                 android:background="@color/colorAccent"
                 android:textSize="9pt"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="•8:30-10:15"
-                android:textColor="#000"
-                android:textSize="12pt"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sTBlock3"
+            android:textColor="#000"
+            android:textSize="12pt"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="viewStart"
-                android:text="Toby Mac 9:15 @ Music Plaza"
+                android:text="Casting Crowns X:XX @ Music Plaza"
                 android:onClick="bandPage"
-                android:tag="tobymac"
+                android:tag="cc"
                 android:layout_marginBottom="30px"
                 android:padding="10px"
                 android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
@@ -112,33 +112,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="bandPage"
-                android:tag="colton"
+                android:tag="am"
                 android:textAlignment="viewStart"
-                android:text="Colton Dixon 10:15 @ Hollywood"
+                android:text="Andy Mineo X:XX @ Hollywood"
                 android:padding="10px"
                 android:layout_marginBottom="30px"
                 android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
                 android:background="@color/colorAccent"
                 android:textSize="9pt"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="•10:15-11:00"
-                android:textColor="#000"
-                android:textSize="12pt"/>
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAlignment="viewStart"
-                android:text="Lecrae 10:45 @ Music Plaza"
-                android:onClick="bandPage"
-                android:tag="lecrae"
-                android:layout_marginBottom="30px"
-                android:padding="10px"
-                android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
-                android:background="@color/colorAccent"
-                android:textSize="9pt"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

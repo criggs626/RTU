@@ -75,10 +75,10 @@ public class BandPage extends AppCompatActivity {
         PendingIntent pendingIntent;
         AlarmManager alarmMgr;
         switch (message) {
-            case "finding":
+            case "ld":
                 Calendar c = Calendar.getInstance();
                 c.set(Calendar.MONTH, Calendar.SEPTEMBER);
-                c.set(Calendar.DAY_OF_MONTH, 9);
+                c.set(Calendar.DAY_OF_MONTH, 7);
                 c.set(Calendar.HOUR_OF_DAY, 18);
                 c.set(Calendar.MINUTE, 35);
                 c.set(Calendar.SECOND, 0);
@@ -88,10 +88,10 @@ public class BandPage extends AppCompatActivity {
                 pendingIntent = PendingIntent.getBroadcast(this, 0, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.setExact(AlarmManager.RTC, c.getTimeInMillis(), pendingIntent);
                 break;
-            case "lauren":
+            case "zw":
                 Calendar c1 = Calendar.getInstance();
                 c1.set(Calendar.MONTH, Calendar.SEPTEMBER);
-                c1.set(Calendar.DAY_OF_MONTH, 9);
+                c1.set(Calendar.DAY_OF_MONTH, 7);
                 c1.set(Calendar.HOUR_OF_DAY, 20);
                 c1.set(Calendar.MINUTE, 5);
                 c1.set(Calendar.SECOND, 0);
@@ -101,10 +101,10 @@ public class BandPage extends AppCompatActivity {
                 pendingIntent = PendingIntent.getBroadcast(this, 1, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.setExact(AlarmManager.RTC, c1.getTimeInMillis(), pendingIntent);
                 break;
-            case "kb":
+            case "jc":
                 Calendar c2 = Calendar.getInstance();
                 c2.set(Calendar.MONTH, Calendar.SEPTEMBER);
-                c2.set(Calendar.DAY_OF_MONTH, 9);
+                c2.set(Calendar.DAY_OF_MONTH, 7);
                 c2.set(Calendar.HOUR_OF_DAY, 18);
                 c2.set(Calendar.MINUTE, 5);
                 c2.set(Calendar.SECOND, 0);
@@ -114,10 +114,10 @@ public class BandPage extends AppCompatActivity {
                 pendingIntent = PendingIntent.getBroadcast(this, 2, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.setExact(AlarmManager.RTC, c2.getTimeInMillis(), pendingIntent);
                 break;
-            case "rend":
+            case "red":
                 Calendar c3 = Calendar.getInstance();
                 c3.set(Calendar.MONTH, Calendar.SEPTEMBER);
-                c3.set(Calendar.DAY_OF_MONTH, 9);
+                c3.set(Calendar.DAY_OF_MONTH, 7);
                 c3.set(Calendar.HOUR_OF_DAY, 19);
                 c3.set(Calendar.MINUTE, 35);
                 c3.set(Calendar.SECOND, 0);
@@ -127,10 +127,10 @@ public class BandPage extends AppCompatActivity {
                 pendingIntent = PendingIntent.getBroadcast(this, 3, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.setExact(AlarmManager.RTC, c3.getTimeInMillis(), pendingIntent);
                 break;
-            case "mat":
+            case "tm":
                 Calendar c4 = Calendar.getInstance();
                 c4.set(Calendar.MONTH, Calendar.SEPTEMBER);
-                c4.set(Calendar.DAY_OF_MONTH, 9);
+                c4.set(Calendar.DAY_OF_MONTH, 7);
                 c4.set(Calendar.HOUR_OF_DAY, 21);
                 c4.set(Calendar.MINUTE, 50);
                 c4.set(Calendar.SECOND, 0);
@@ -140,10 +140,10 @@ public class BandPage extends AppCompatActivity {
                 pendingIntent = PendingIntent.getBroadcast(this, 4, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.setExact(AlarmManager.RTC, c4.getTimeInMillis(), pendingIntent);
                 break;
-            case "jeremy":
+            case "tl":
                 Calendar c5 = Calendar.getInstance();
                 c5.set(Calendar.MONTH, Calendar.SEPTEMBER);
-                c5.set(Calendar.DAY_OF_MONTH, 9);
+                c5.set(Calendar.DAY_OF_MONTH, 7);
                 c5.set(Calendar.HOUR_OF_DAY, 21);
                 c5.set(Calendar.MINUTE, 5);
                 c5.set(Calendar.SECOND, 0);
@@ -153,23 +153,10 @@ public class BandPage extends AppCompatActivity {
                 pendingIntent = PendingIntent.getBroadcast(this, 5, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.setExact(AlarmManager.RTC, c5.getTimeInMillis(), pendingIntent);
                 break;
-            case "skillet":
-                Calendar c6 = Calendar.getInstance();
-                c6.set(Calendar.MONTH, Calendar.SEPTEMBER);
-                c6.set(Calendar.DAY_OF_MONTH, 9);
-                c6.set(Calendar.HOUR_OF_DAY, 22);
-                c6.set(Calendar.MINUTE, 50);
-                c6.set(Calendar.SECOND, 0);
-                alarmMgr = (AlarmManager) this.getSystemService(Context.ALARM_SERVICE);
-                intent = new Intent(this, MyReceiver.class);
-                intent.putExtra("id", message);
-                pendingIntent = PendingIntent.getBroadcast(this, 6, intent, PendingIntent.FLAG_ONE_SHOT);
-                alarmMgr.setExact(AlarmManager.RTC, c6.getTimeInMillis(), pendingIntent);
-                break;
-            case "they":
+            case "rs":
                 Calendar c7 = Calendar.getInstance();
                 c7.set(Calendar.MONTH, Calendar.SEPTEMBER);
-                c7.set(Calendar.DAY_OF_MONTH, 10);
+                c7.set(Calendar.DAY_OF_MONTH, 8);
                 c7.set(Calendar.HOUR_OF_DAY, 18);
                 c7.set(Calendar.MINUTE, 50);
                 c7.set(Calendar.SECOND, 0);
@@ -179,10 +166,10 @@ public class BandPage extends AppCompatActivity {
                 pendingIntent = PendingIntent.getBroadcast(this, 7, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.setExact(AlarmManager.RTC, c7.getTimeInMillis(), pendingIntent);
                 break;
-            case "nf":
+            case "ff5":
                 Calendar c8 = Calendar.getInstance();
                 c8.set(Calendar.MONTH, Calendar.SEPTEMBER);
-                c8.set(Calendar.DAY_OF_MONTH, 10);
+                c8.set(Calendar.DAY_OF_MONTH, 8);
                 c8.set(Calendar.HOUR_OF_DAY, 20);
                 c8.set(Calendar.MINUTE, 20);
                 c8.set(Calendar.SECOND, 0);
@@ -192,10 +179,10 @@ public class BandPage extends AppCompatActivity {
                 pendingIntent = PendingIntent.getBroadcast(this, 8, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.setExact(AlarmManager.RTC, c8.getTimeInMillis(), pendingIntent);
                 break;
-            case "andy":
+            case "bh":
                 Calendar c9 = Calendar.getInstance();
                 c9.set(Calendar.MONTH, Calendar.SEPTEMBER);
-                c9.set(Calendar.DAY_OF_MONTH, 10);
+                c9.set(Calendar.DAY_OF_MONTH, 8);
                 c9.set(Calendar.HOUR_OF_DAY, 17);
                 c9.set(Calendar.MINUTE, 50);
                 c9.set(Calendar.SECOND, 0);
@@ -205,10 +192,10 @@ public class BandPage extends AppCompatActivity {
                 pendingIntent = PendingIntent.getBroadcast(this, 9, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.setExact(AlarmManager.RTC, c9.getTimeInMillis(), pendingIntent);
                 break;
-            case "family":
+            case "kc":
                 Calendar c10 = Calendar.getInstance();
                 c10.set(Calendar.MONTH, Calendar.SEPTEMBER);
-                c10.set(Calendar.DAY_OF_MONTH, 10);
+                c10.set(Calendar.DAY_OF_MONTH, 8);
                 c10.set(Calendar.HOUR_OF_DAY, 19);
                 c10.set(Calendar.MINUTE, 20);
                 c10.set(Calendar.SECOND, 0);
@@ -218,10 +205,10 @@ public class BandPage extends AppCompatActivity {
                 pendingIntent = PendingIntent.getBroadcast(this, 10, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.setExact(AlarmManager.RTC, c10.getTimeInMillis(), pendingIntent);
                 break;
-            case "colton":
+            case "cc":
                 Calendar c11 = Calendar.getInstance();
                 c11.set(Calendar.MONTH, Calendar.SEPTEMBER);
-                c11.set(Calendar.DAY_OF_MONTH, 10);
+                c11.set(Calendar.DAY_OF_MONTH, 8);
                 c11.set(Calendar.HOUR_OF_DAY, 22);
                 c11.set(Calendar.MINUTE, 5);
                 c11.set(Calendar.SECOND, 0);
@@ -231,10 +218,10 @@ public class BandPage extends AppCompatActivity {
                 pendingIntent = PendingIntent.getBroadcast(this, 11, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.setExact(AlarmManager.RTC, c11.getTimeInMillis(), pendingIntent);
                 break;
-            case "tobymac":
+            case "am":
                 Calendar c12 = Calendar.getInstance();
                 c12.set(Calendar.MONTH, Calendar.SEPTEMBER);
-                c12.set(Calendar.DAY_OF_MONTH, 10);
+                c12.set(Calendar.DAY_OF_MONTH, 8);
                 c12.set(Calendar.HOUR_OF_DAY, 21);
                 c12.set(Calendar.MINUTE, 5);
                 c12.set(Calendar.SECOND, 0);
@@ -244,23 +231,10 @@ public class BandPage extends AppCompatActivity {
                 pendingIntent = PendingIntent.getBroadcast(this, 12, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.setExact(AlarmManager.RTC, c12.getTimeInMillis(), pendingIntent);
                 break;
-            case "lecrae":
-                Calendar c13 = Calendar.getInstance();
-                c13.set(Calendar.MONTH, Calendar.SEPTEMBER);
-                c13.set(Calendar.DAY_OF_MONTH, 10);
-                c13.set(Calendar.HOUR_OF_DAY, 22);
-                c13.set(Calendar.MINUTE, 35);
-                c13.set(Calendar.SECOND, 0);
-                alarmMgr = (AlarmManager) this.getSystemService(Context.ALARM_SERVICE);
-                intent = new Intent(this, MyReceiver.class);
-                intent.putExtra("id", message);
-                pendingIntent = PendingIntent.getBroadcast(this, 13, intent, PendingIntent.FLAG_ONE_SHOT);
-                alarmMgr.setExact(AlarmManager.RTC, c13.getTimeInMillis(), pendingIntent);
-                break;
             case "royce":
                 Calendar c14 = Calendar.getInstance();
                 c14.set(Calendar.MONTH, Calendar.SEPTEMBER);
-                c14.set(Calendar.DAY_OF_MONTH, 9);
+                c14.set(Calendar.DAY_OF_MONTH, 7);
                 c14.set(Calendar.HOUR_OF_DAY, 18);
                 c14.set(Calendar.MINUTE, 5);
                 c14.set(Calendar.SECOND, 0);
@@ -273,7 +247,7 @@ public class BandPage extends AppCompatActivity {
             case "jillian":
                 Calendar c15 = Calendar.getInstance();
                 c15.set(Calendar.MONTH, Calendar.SEPTEMBER);
-                c15.set(Calendar.DAY_OF_MONTH, 9);
+                c15.set(Calendar.DAY_OF_MONTH, 7);
                 c15.set(Calendar.HOUR_OF_DAY, 18);
                 c15.set(Calendar.MINUTE, 50);
                 c15.set(Calendar.SECOND, 0);
@@ -286,7 +260,7 @@ public class BandPage extends AppCompatActivity {
             case "seventh":
                 Calendar c16 = Calendar.getInstance();
                 c16.set(Calendar.MONTH, Calendar.SEPTEMBER);
-                c16.set(Calendar.DAY_OF_MONTH, 9);
+                c16.set(Calendar.DAY_OF_MONTH, 7);
                 c16.set(Calendar.HOUR_OF_DAY, 19);
                 c16.set(Calendar.MINUTE, 50);
                 c16.set(Calendar.SECOND, 0);
@@ -299,7 +273,7 @@ public class BandPage extends AppCompatActivity {
             case "promote1":
                 Calendar c17 = Calendar.getInstance();
                 c17.set(Calendar.MONTH, Calendar.SEPTEMBER);
-                c17.set(Calendar.DAY_OF_MONTH, 9);
+                c17.set(Calendar.DAY_OF_MONTH, 7);
                 c17.set(Calendar.HOUR_OF_DAY, 21);
                 c17.set(Calendar.MINUTE, 20);
                 c17.set(Calendar.SECOND, 0);
@@ -312,7 +286,7 @@ public class BandPage extends AppCompatActivity {
             case "ryan":
                 Calendar c18 = Calendar.getInstance();
                 c18.set(Calendar.MONTH, Calendar.SEPTEMBER);
-                c18.set(Calendar.DAY_OF_MONTH, 10);
+                c18.set(Calendar.DAY_OF_MONTH, 8);
                 c18.set(Calendar.HOUR_OF_DAY, 18);
                 c18.set(Calendar.MINUTE, 5);
                 c18.set(Calendar.SECOND, 0);
@@ -325,7 +299,7 @@ public class BandPage extends AppCompatActivity {
             case "about":
                 Calendar c19 = Calendar.getInstance();
                 c19.set(Calendar.MONTH, Calendar.SEPTEMBER);
-                c19.set(Calendar.DAY_OF_MONTH, 10);
+                c19.set(Calendar.DAY_OF_MONTH, 8);
                 c19.set(Calendar.HOUR_OF_DAY, 18);
                 c19.set(Calendar.MINUTE, 50);
                 c19.set(Calendar.SECOND, 0);
@@ -338,7 +312,7 @@ public class BandPage extends AppCompatActivity {
             case "respects":
                 Calendar c20 = Calendar.getInstance();
                 c20.set(Calendar.MONTH, Calendar.SEPTEMBER);
-                c20.set(Calendar.DAY_OF_MONTH, 10);
+                c20.set(Calendar.DAY_OF_MONTH, 8);
                 c20.set(Calendar.HOUR_OF_DAY, 19);
                 c20.set(Calendar.MINUTE, 50);
                 c20.set(Calendar.SECOND, 0);
@@ -351,7 +325,7 @@ public class BandPage extends AppCompatActivity {
             case "promote2":
                 Calendar c21 = Calendar.getInstance();
                 c21.set(Calendar.MONTH, Calendar.SEPTEMBER);
-                c21.set(Calendar.DAY_OF_MONTH, 10);
+                c21.set(Calendar.DAY_OF_MONTH, 8);
                 c21.set(Calendar.HOUR_OF_DAY, 21);
                 c21.set(Calendar.MINUTE, 5);
                 c21.set(Calendar.SECOND, 0);

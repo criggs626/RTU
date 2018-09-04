@@ -39,8 +39,8 @@
                 android:layout_height="wrap_content"
                 android:textAlignment="viewStart"
                 android:onClick="bandPage"
-                android:tag="kb"
-                android:text="KB 6:15 @ Music Plaza"
+                android:tag="ld"
+                android:text="Lauren Daigle X:XX @ Music Plaza"
                 android:padding="10px"
                 android:layout_marginBottom="30px"
                 android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
@@ -51,8 +51,8 @@
                 android:layout_height="wrap_content"
                 android:textAlignment="viewStart"
                 android:onClick="bandPage"
-                android:tag="finding"
-                android:text="Finding Favour 6:45 @ Hollywood"
+                android:tag="zw"
+                android:text="Zach Williams X:XX @ Hollywood"
                 android:padding="10px"
                 android:layout_marginBottom="30px"
                 android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
@@ -70,23 +70,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="viewStart"
-                android:text="Rend Collective 7:45 @ Music Plaza"
+                android:text="Jesus Culture X:XX @ Music Plaza"
                 android:onClick="bandPage"
-                android:tag="rend"
+                android:tag="jc"
                 android:layout_marginBottom="30px"
                 android:padding="10px"
                 android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
                 android:background="@color/colorAccent"
                 android:textSize="9pt"/>
 
-
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="viewStart"
-                android:text="Lauren Daigle 8:15 @ Hollywood"
+                android:text="RED X:XX @ Hollywood"
                 android:onClick="bandPage"
-                android:tag="lauren"
+                android:tag="red"
                 android:layout_marginBottom="30px"
                 android:padding="10px"
                 android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
@@ -102,9 +101,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="viewStart"
-                android:text="Jeremy Camp 9:15 @ Music Plaza"
+                android:text="Toby Mac X:XX @ Music Plaza"
                 android:onClick="bandPage"
-                android:tag="jeremy"
+                android:tag="tm"
                 android:layout_marginBottom="30px"
                 android:padding="10px"
                 android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
@@ -114,34 +113,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="viewStart"
-                android:text="Mat Maher 10:00 @ Hollywood"
+                android:text="Trip Lee X:XX @ Hollywood"
                 android:onClick="bandPage"
-                android:tag="mat"
+                android:tag="tl"
                 android:padding="10px"
                 android:layout_marginBottom="30px"
                 android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
                 android:background="@color/colorAccent"
                 android:textSize="9pt"/>
 
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/fTBlock4"
-        android:textColor="#000"
-        android:textSize="12pt"/>
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAlignment="viewStart"
-                android:text="Skillet 11:00 @ Music Plaza"
-                android:onClick="bandPage"
-                android:tag="skillet"
-                android:layout_marginBottom="30px"
-                android:padding="10px"
-                android:drawableRight="@mipmap/ic_chevron_right_black_24dp"
-                android:background="@color/colorAccent"
-                android:textSize="9pt"/>
     </LinearLayout>
     </ScrollView>
 </LinearLayout>
