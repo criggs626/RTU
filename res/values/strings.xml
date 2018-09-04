@@ -91,31 +91,31 @@ Casting Crowns is a contemporary Christian and Christian rock band started in 19
 Andrew Mineo (born April 17, 1988), is an American hip hop artist, producer, and video director from New York City. He is signed to Reach Records and his creative initiative Miner League. In addition to his solo work, he is a member of Reach Records' hip hop collective 116 Clique.
     </string>
 
-    <string name="royce_name">Royce  Lovett</string>
-    <string name="jillian_name">Jillian Edwards</string>
-    <string name="seventh_name">7eventh Time Down</string>
-    <string name="promote1_name">DJ Promote</string>
-    <string name="ryan_name">Ryan Stevenson</string>
-    <string name="about_name">About The Author</string>
-    <string name="respects_name">The New Respects</string>
-    <string name="promote2_name">DJ Promote</string>
+    <string name="sr1_name">Sarah Reeves</string>
+    <string name="sr2_name">Sarah Reeves</string>
+    <string name="db1_name">Dan Bremnes</string>
+    <string name="db2_name">Dan Bremnes</string>
+    <string name="1k_name">1K Phew</string>
+    <string name="bon_name">Bonray</string>
+    <string name="ac_name">Aaron Cole</string>
+    <string name="rc_name">Riley Clemmons</string>
 
-    <string name="royce_info">•6:15\n•Fan Zone</string>
-    <string name="jillian_info">•7:00\n•Fan Zone</string>
-    <string name="seventh_info">•8:00\n•Fan Zone</string>
-    <string name="promote1_info">•9:30\n•Fan Zone</string>
-    <string name="ryan_info">•6:15\n•Fan Zone</string>
-    <string name="about_info">•7:00\n•Fan Zone</string>
-    <string name="respects_info">•8:00\n•Fan Zone</string>
-    <string name="promote2_info">•9:15\n•Fan Zone</string>
+    <string name="sr1_info">•X:XX\n•Fan Zone</string>
+    <string name="sr2_info">•X:XX\n•Fan Zone</string>
+    <string name="db1_info">•X:XX\n•Fan Zone</string>
+    <string name="db2_info">•X:XX\n•Fan Zone</string>
+    <string name="1k_info">•X:XX\n•Fan Zone</string>
+    <string name="bon_info">•X:XX\n•Fan Zone</string>
+    <string name="ac_info">•X:XX\n•Fan Zone</string>
+    <string name="rc_info">•X:XX\n•Fan Zone</string>
 
-    <string name="royce_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
-    <string name="jillian_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
-    <string name="seventh_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
-    <string name="promote1_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
-    <string name="ryan_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
-    <string name="about_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
-    <string name="respects_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
-    <string name="promote2_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
+    <string name="sr1_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
+    <string name="sr2_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
+    <string name="db1_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
+    <string name="db2_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
+    <string name="1k_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
+    <string name="bon_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
+    <string name="ac_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
+    <string name="rc_description">This band will be playing at the fan zone sponsored by Coca-Cola</string>
 
 </resources>
