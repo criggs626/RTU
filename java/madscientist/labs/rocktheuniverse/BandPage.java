@@ -231,7 +231,7 @@ public class BandPage extends AppCompatActivity {
                 pendingIntent = PendingIntent.getBroadcast(this, 12, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.setExact(AlarmManager.RTC, c12.getTimeInMillis(), pendingIntent);
                 break;
-            case "royce":
+            case "sr1":
                 Calendar c14 = Calendar.getInstance();
                 c14.set(Calendar.MONTH, Calendar.SEPTEMBER);
                 c14.set(Calendar.DAY_OF_MONTH, 7);
@@ -244,7 +244,7 @@ public class BandPage extends AppCompatActivity {
                 pendingIntent = PendingIntent.getBroadcast(this, 14, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.setExact(AlarmManager.RTC, c14.getTimeInMillis(), pendingIntent);
                 break;
-            case "jillian":
+            case "db1":
                 Calendar c15 = Calendar.getInstance();
                 c15.set(Calendar.MONTH, Calendar.SEPTEMBER);
                 c15.set(Calendar.DAY_OF_MONTH, 7);
@@ -257,7 +257,7 @@ public class BandPage extends AppCompatActivity {
                 pendingIntent = PendingIntent.getBroadcast(this, 15, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.setExact(AlarmManager.RTC, c15.getTimeInMillis(), pendingIntent);
                 break;
-            case "seventh":
+            case "1k":
                 Calendar c16 = Calendar.getInstance();
                 c16.set(Calendar.MONTH, Calendar.SEPTEMBER);
                 c16.set(Calendar.DAY_OF_MONTH, 7);
@@ -270,7 +270,7 @@ public class BandPage extends AppCompatActivity {
                 pendingIntent = PendingIntent.getBroadcast(this, 16, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.setExact(AlarmManager.RTC, c16.getTimeInMillis(), pendingIntent);
                 break;
-            case "promote1":
+            case "bon":
                 Calendar c17 = Calendar.getInstance();
                 c17.set(Calendar.MONTH, Calendar.SEPTEMBER);
                 c17.set(Calendar.DAY_OF_MONTH, 7);
@@ -283,7 +283,7 @@ public class BandPage extends AppCompatActivity {
                 pendingIntent = PendingIntent.getBroadcast(this, 17, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.setExact(AlarmManager.RTC, c17.getTimeInMillis(), pendingIntent);
                 break;
-            case "ryan":
+            case "sr2":
                 Calendar c18 = Calendar.getInstance();
                 c18.set(Calendar.MONTH, Calendar.SEPTEMBER);
                 c18.set(Calendar.DAY_OF_MONTH, 8);
@@ -296,7 +296,7 @@ public class BandPage extends AppCompatActivity {
                 pendingIntent = PendingIntent.getBroadcast(this, 18, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.setExact(AlarmManager.RTC, c18.getTimeInMillis(), pendingIntent);
                 break;
-            case "about":
+            case "sb2":
                 Calendar c19 = Calendar.getInstance();
                 c19.set(Calendar.MONTH, Calendar.SEPTEMBER);
                 c19.set(Calendar.DAY_OF_MONTH, 8);
@@ -309,7 +309,7 @@ public class BandPage extends AppCompatActivity {
                 pendingIntent = PendingIntent.getBroadcast(this, 19, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.setExact(AlarmManager.RTC, c19.getTimeInMillis(), pendingIntent);
                 break;
-            case "respects":
+            case "ac":
                 Calendar c20 = Calendar.getInstance();
                 c20.set(Calendar.MONTH, Calendar.SEPTEMBER);
                 c20.set(Calendar.DAY_OF_MONTH, 8);
@@ -322,7 +322,7 @@ public class BandPage extends AppCompatActivity {
                 pendingIntent = PendingIntent.getBroadcast(this, 20, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.setExact(AlarmManager.RTC, c20.getTimeInMillis(), pendingIntent);
                 break;
-            case "promote2":
+            case "rc":
                 Calendar c21 = Calendar.getInstance();
                 c21.set(Calendar.MONTH, Calendar.SEPTEMBER);
                 c21.set(Calendar.DAY_OF_MONTH, 8);
@@ -345,154 +345,140 @@ public class BandPage extends AppCompatActivity {
         Intent intent;
         PendingIntent pendingIntent;
         switch (message) {
-            case "finding":
+            case "ld":
                 alarmMgr = (AlarmManager) this.getSystemService(Context.ALARM_SERVICE);
                 intent = new Intent(this, MyReceiver.class);
                 intent.putExtra("id", message);
                 pendingIntent = PendingIntent.getBroadcast(this, 0, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.cancel(pendingIntent);
                 break;
-            case "lauren":
+            case "zw":
                 alarmMgr = (AlarmManager) this.getSystemService(Context.ALARM_SERVICE);
                 intent = new Intent(this, MyReceiver.class);
                 intent.putExtra("id", message);
                 pendingIntent = PendingIntent.getBroadcast(this, 1, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.cancel(pendingIntent);
                 break;
-            case "kb":
+            case "jc":
                 alarmMgr = (AlarmManager) this.getSystemService(Context.ALARM_SERVICE);
                 intent = new Intent(this, MyReceiver.class);
                 intent.putExtra("id", message);
                 pendingIntent = PendingIntent.getBroadcast(this, 2, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.cancel(pendingIntent);
                 break;
-            case "rend":
+            case "red":
                 alarmMgr = (AlarmManager) this.getSystemService(Context.ALARM_SERVICE);
                 intent = new Intent(this, MyReceiver.class);
                 intent.putExtra("id", message);
                 pendingIntent = PendingIntent.getBroadcast(this, 3, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.cancel(pendingIntent);
                 break;
-            case "mat":
+            case "tm":
                 alarmMgr = (AlarmManager) this.getSystemService(Context.ALARM_SERVICE);
                 intent = new Intent(this, MyReceiver.class);
                 intent.putExtra("id", message);
                 pendingIntent = PendingIntent.getBroadcast(this, 4, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.cancel(pendingIntent);
                 break;
-            case "jeremy":
+            case "tl":
                 alarmMgr = (AlarmManager) this.getSystemService(Context.ALARM_SERVICE);
                 intent = new Intent(this, MyReceiver.class);
                 intent.putExtra("id", message);
                 pendingIntent = PendingIntent.getBroadcast(this, 5, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.cancel(pendingIntent);
                 break;
-            case "skillet":
-                alarmMgr = (AlarmManager) this.getSystemService(Context.ALARM_SERVICE);
-                intent = new Intent(this, MyReceiver.class);
-                intent.putExtra("id", message);
-                pendingIntent = PendingIntent.getBroadcast(this, 6, intent, PendingIntent.FLAG_ONE_SHOT);
-                alarmMgr.cancel(pendingIntent);
-                break;
-            case "they":
+            case "rs":
                 alarmMgr = (AlarmManager) this.getSystemService(Context.ALARM_SERVICE);
                 intent = new Intent(this, MyReceiver.class);
                 intent.putExtra("id", message);
                 pendingIntent = PendingIntent.getBroadcast(this, 7, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.cancel(pendingIntent);
                 break;
-            case "nf":
+            case "ff5":
                 alarmMgr = (AlarmManager) this.getSystemService(Context.ALARM_SERVICE);
                 intent = new Intent(this, MyReceiver.class);
                 intent.putExtra("id", message);
                 pendingIntent = PendingIntent.getBroadcast(this, 8, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.cancel(pendingIntent);
                 break;
-            case "andy":
+            case "bh":
                 alarmMgr = (AlarmManager)this.getSystemService(Context.ALARM_SERVICE);
                 intent = new Intent(this, MyReceiver.class);
                 intent.putExtra("id",message);
                 pendingIntent = PendingIntent.getBroadcast(this, 9, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.cancel(pendingIntent);
                 break;
-            case "family":
+            case "kc":
                 alarmMgr = (AlarmManager)this.getSystemService(Context.ALARM_SERVICE);
                 intent = new Intent(this, MyReceiver.class);
                 intent.putExtra("id",message);
                 pendingIntent = PendingIntent.getBroadcast(this, 10, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.cancel(pendingIntent);
                 break;
-            case "colton":
+            case "cc":
                 alarmMgr = (AlarmManager)this.getSystemService(Context.ALARM_SERVICE);
                 intent = new Intent(this, MyReceiver.class);
                 intent.putExtra("id",message);
                 pendingIntent = PendingIntent.getBroadcast(this, 11, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.cancel(pendingIntent);
                 break;
-            case "tobymac":
+            case "am":
                 alarmMgr = (AlarmManager)this.getSystemService(Context.ALARM_SERVICE);
                 intent = new Intent(this, MyReceiver.class);
                 intent.putExtra("id",message);
                 pendingIntent = PendingIntent.getBroadcast(this, 12, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.cancel(pendingIntent);
                 break;
-            case "lecrae":
-                alarmMgr = (AlarmManager)this.getSystemService(Context.ALARM_SERVICE);
-                intent = new Intent(this, MyReceiver.class);
-                intent.putExtra("id",message);
-                pendingIntent = PendingIntent.getBroadcast(this, 13, intent, PendingIntent.FLAG_ONE_SHOT);
-                alarmMgr.cancel(pendingIntent);
-                break;
-            case "royce":
+            case "sr1":
                 alarmMgr = (AlarmManager)this.getSystemService(Context.ALARM_SERVICE);
                 intent = new Intent(this, MyReceiver.class);
                 intent.putExtra("id",message);
                 pendingIntent = PendingIntent.getBroadcast(this, 14, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.cancel(pendingIntent);
                 break;
-            case "jillian":
+            case "db1":
                 alarmMgr = (AlarmManager)this.getSystemService(Context.ALARM_SERVICE);
                 intent = new Intent(this, MyReceiver.class);
                 intent.putExtra("id",message);
                 pendingIntent = PendingIntent.getBroadcast(this, 15, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.cancel(pendingIntent);
                 break;
-            case "seventh":
+            case "1k":
                 alarmMgr = (AlarmManager)this.getSystemService(Context.ALARM_SERVICE);
                 intent = new Intent(this, MyReceiver.class);
                 intent.putExtra("id",message);
                 pendingIntent = PendingIntent.getBroadcast(this, 16, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.cancel(pendingIntent);
                 break;
-            case "promote1":
+            case "bon":
                 alarmMgr = (AlarmManager)this.getSystemService(Context.ALARM_SERVICE);
                 intent = new Intent(this, MyReceiver.class);
                 intent.putExtra("id",message);
                 pendingIntent = PendingIntent.getBroadcast(this, 17, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.cancel(pendingIntent);
                 break;
-            case "ryan":
+            case "sr2":
                 alarmMgr = (AlarmManager)this.getSystemService(Context.ALARM_SERVICE);
                 intent = new Intent(this, MyReceiver.class);
                 intent.putExtra("id",message);
                 pendingIntent = PendingIntent.getBroadcast(this, 18, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.cancel(pendingIntent);
                 break;
-            case "about":
+            case "db2":
                 alarmMgr = (AlarmManager)this.getSystemService(Context.ALARM_SERVICE);
                 intent = new Intent(this, MyReceiver.class);
                 intent.putExtra("id",message);
                 pendingIntent = PendingIntent.getBroadcast(this, 19, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.cancel(pendingIntent);
                 break;
-            case "respects":
+            case "ac":
                 alarmMgr = (AlarmManager)this.getSystemService(Context.ALARM_SERVICE);
                 intent = new Intent(this, MyReceiver.class);
                 intent.putExtra("id",message);
                 pendingIntent = PendingIntent.getBroadcast(this, 20, intent, PendingIntent.FLAG_ONE_SHOT);
                 alarmMgr.cancel(pendingIntent);
                 break;
-            case "promote2":
+            case "rc":
                 alarmMgr = (AlarmManager)this.getSystemService(Context.ALARM_SERVICE);
                 intent = new Intent(this, MyReceiver.class);
                 intent.putExtra("id",message);
